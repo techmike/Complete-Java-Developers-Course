@@ -1,4 +1,4 @@
-package InheritanceChallenge;
+package Inheritance.InheritanceChallenge;
 
 /**
  * Created by robertsg on 11/25/2015.
@@ -13,9 +13,9 @@ public class Car extends Vehicle {
     private int doors;
     private double engine;
 
-    public Car(int year, int steering, int gear, int move, String make, String model, String trim, String color,
+    public Car(int year, int steering, int gear, boolean isManual, int move, String make, String model, String trim, String color,
                int wheels, int windows, int doors, double engine) {
-        super(year, steering, gear, move);
+        super(year, steering, gear, isManual, move);
         this.make = make;
         this.model = model;
         this.trim = trim;
